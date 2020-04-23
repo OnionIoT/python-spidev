@@ -8,6 +8,8 @@ All code is GPLv2 licensed unless explicitly stated otherwise.
 
 ## More Details on Use with the Omega2
 
+**Full-duplex SPI transmissions are not supported.** This is due to the MediaTek MT7688 SoC used in the Omega2 family. **Half-duplex SPI transmissions ARE supported.** See the [Half-Duplex Transmissions section](#half-duplex-transmissions) below. 
+
 See more details here:
 
 * https://onion.io/2bt-brand-new-os-release/#spiimprovement
