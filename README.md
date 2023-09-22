@@ -19,19 +19,25 @@ See more details here:
 
 > The spidev module is available for Python2 and Python3, the installation commands are slightly different.
 
-Connect to the Omega's command line and run the following commands to install the **Python2** module:
+Connect to the Omega's command line and run the following commands to install the **Python3** module:
+```
+opkg update
+opkg install python3-light python3-spidev
+```
+
+### Legacy Python2 Support
+
+**Skip this section if you're using Python3**
+
+The spidev module is available for Python2 on Onion Firmware v0.3.x, the installation commands are slightly different:
+
 ```
 opkg update
 opkg install python-light python-spidev
 ```
 
----
+Note this will only work if you're using Python2 on an Omega2 running Onion Firmware v0.3.x or v0.2.x
 
-To install the **Python3** module, run this set of commands
-```
-opkg update
-opkg install python3-light python3-spidev
-```
 
 ## Usage
 
