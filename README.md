@@ -17,8 +17,6 @@ See more details here:
 
 ## Installation on Omega2
 
-> The spidev module is available for Python2 and Python3, the installation commands are slightly different.
-
 Connect to the Omega's command line and run the following commands to install the **Python3** module:
 ```
 opkg update
