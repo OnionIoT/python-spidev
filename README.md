@@ -142,6 +142,6 @@ close()
 
 | Function | Recommended for use on Omega2 | Chip-Select behaviour between blocks | SPI Transfer Type                                       | Writes Successfully | Reads Successfully |
 |----------|-------------------------------|--------------------------------------|---------------------------------------------------------|---------------------|--------------------|
-| `xfer`   | ❌                             | Released and reactivated             | Full-duplex - sending and receiving data simultaneously | ✅                   | ❌                  |
-| `xfer2`  | ❌                             | Held active                          | Full-duplex - sending and receiving data simultaneously | ✅                   | ❌                  |
+| `xfer`   | Only for writing data                            | Released and reactivated             | Full-duplex - sending and receiving data simultaneously | ✅                   | ❌                  |
+| `xfer2`  | Only for writing data                             | Held active                          | Full-duplex - sending and receiving data simultaneously | ✅                   | ❌                  |
 | `xfer3`  | ✅                             | Held active                          | Half-duplex - send **then** receive data                | ✅                   | ✅                  |
