@@ -8,7 +8,7 @@ All code is GPLv2 licensed unless explicitly stated otherwise.
 
 ## More Details on Use with the Omega2
 
-**Full-duplex SPI transmissions are not supported.** This is due to the MediaTek MT7688 SoC used in the Omega2 family. **Half-duplex SPI transmissions ARE supported.** See the [xfer3 Half-Duplex Transmission section](#xfer3-half-duplex-spi-transaction) below. 
+**Full-duplex SPI transmissions are not supported.** This is due to the MediaTek MT7688 SoC used in the Omega2 family. **Half-duplex SPI transmissions ARE supported.** See the [xfer3 Half-Duplex Transmission section](#xfer3---half-duplex-spi-transaction) below. 
 
 See more details here:
 
@@ -128,12 +128,14 @@ xfer3(list of values to be written, number of bytes to read [, speed_hz, delay_u
 
 ---
 
-## `close()` - Disconnect from Device
+### `close()` - Disconnect from Device
 
 Disconnects from the SPI device.
 ```
 close()
 ```
+
+---
 
 
 ## Differences between the `xfer` functions
